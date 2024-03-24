@@ -29,7 +29,7 @@ const stack = [
       name: "Python",
       category: "Programming Languages",
       description:
-        "nitiated my Python journey as part of the \"Software Testing and Quality Assurance\" curriculum. Currently focused on testing diverse data structures to enhance code coverage and ensure robust software quality.",
+        "Initiated my Python journey as part of the \"Software Testing and Quality Assurance\" curriculum. Currently focused on testing diverse data structures to enhance code coverage and ensure robust software quality.",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     },
     {
@@ -114,7 +114,7 @@ const stack = [
       category: "Cloud Services",
       description:
         "Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon. It offers a wide range of services, including computing power, storage, and databases, among others.",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     },
     {
       id: 14,
@@ -173,6 +173,13 @@ const stack = [
         "RESTful API development involves designing and building APIs based on the principles of Representational State Transfer (REST). It is a common approach for creating scalable and interoperable web services.",
       image: "https://cdn-icons-png.flaticon.com/512/10169/10169724.png",
     },
+    {
+      id: 22,
+      name: "Docker",
+      category: "Others",
+      description: "Docker is a platform that enables developers to build, deploy, and run applications using containerization technology, providing efficient and consistent environments across different computing environments.",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+    }
 ];
 
 export default stack;
