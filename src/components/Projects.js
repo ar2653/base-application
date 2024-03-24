@@ -18,7 +18,6 @@ const Projects = () => {
                             <p>Details about Project 2</p>
                         </Card>
                     </Col>
-                    {/* Add more cards for Hackathon projects */}
                 </Row>
             </div>
             <div style={{ marginTop: '20px' }}>
@@ -35,10 +34,8 @@ const Projects = () => {
                             <p>Details about Project B</p>
                         </Card>
                     </Col>
-                    {/* Add more cards for work-related projects */}
                 </Row>
             </div>
-            {/* Add more sections and cards as needed */}
         </div>
     );
 }
