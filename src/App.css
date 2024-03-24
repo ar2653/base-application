@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  background: #f0f0f0; /* Set background color as needed */
+  padding: 20px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* Grid layout for cards */
+.landing-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns with equal width */
+  gap: 20px; /* Gap between cards */
+  margin-top: 20px; /* Add spacing between greeting and cards */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for individual cards */
+.landing-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff; /* Card background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for cards */
+}
+
+/* About.module.css */
+.aboutContainer {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.aboutme {
+  text-align: left;
+}
+
+.techCard {
+  margin-top: 20px;
+}
+
+.cardContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.techImage {
+  width: 150px;
+  height: 150px;
 }
