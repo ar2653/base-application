@@ -40,7 +40,7 @@ const Landing = () => {
                         </p>
                     </Card>
                 </Link> */}
-
+{/* 
           <Link to="/diy" className="card-link">
             <Card title="DIY" className="landing-card">
               <p className="card-text">
@@ -58,7 +58,7 @@ const Landing = () => {
                 need to get in touch.
               </p>
             </Card>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
