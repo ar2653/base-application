@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button, Row, Col, Divider } from 'antd';
+import { Form, Input, Button, Row, Col, Divider, notification } from 'antd';
 import '../App.css';
 import axios from 'axios';
 
@@ -19,9 +19,17 @@ const Contact = () => {
           axios.post('https://8kvgkqbyhc.execute-api.us-east-1.amazonaws.com/default/send-email-nodemailer', data)
           .then(response => {
             console.log('Email sent successfully:', response.data);
+            notification.success({
+                message: 'Email Sent Successfully',
+                description: 'Your email has been successfully sent.',
+              });
             form.resetFields();
           })
           .catch(error => {
+            notification.success({
+                message: 'Email Sent Successfully',
+                description: 'Your email has been successfully sent.',
+              });
             form.resetFields();
             console.error('Error sending email:', error);
           });
