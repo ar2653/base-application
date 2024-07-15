@@ -31,6 +31,14 @@ const Landing = () => {
             </Card>
           </Link>
 
+          {/* <Link to="/reachout" className="card-link">
+            <Card title="Reach Out" className="landing-card">
+              <p className="card-text">
+          Reach out to me via LinkedIn, email, GitHub, or phone to discuss my projects, contributions, technologies used, and project outcomes.
+              </p>
+            </Card>
+          </Link> */}
+
           {/* <Link to="/research" className="card-link">
                     <Card title="Research" className="landing-card">
                         <p className="card-text">
@@ -48,7 +56,7 @@ const Landing = () => {
                 step-by-step guides to building them from scratch.
               </p>
             </Card>
-          </Link>
+          </Link> */}
 
           <Link to="/contact" className="card-link">
             <Card title="Contact" className="landing-card">
@@ -58,7 +66,7 @@ const Landing = () => {
                 need to get in touch.
               </p>
             </Card>
-          </Link> */}
+          </Link> 
         </div>
       </div>
     </div>

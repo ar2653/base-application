@@ -114,16 +114,66 @@
   max-width: 600px;
   margin: 0 auto;
   margin-top: 150px;
-  /* padding: 20px; */
-  background-color: #f9f9f9;
-  border-radius: 8px;
+  /* background-color: #f9f9f9; */
+  /* border-radius: 8px; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.connect-heading {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* App.css */
+/* Styles for social buttons */
+.social-buttons {
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.social-button {
+  margin-bottom: 25px; /* Adjust spacing between buttons */
+  width: 100%; /* Ensure buttons take full width */
+  white-space: normal; /* Allow text to wrap */
+}
+
+/* Styles for contact form */
+.contact-container {
+  padding: 24px; /* Adjust overall padding for the container */
 }
 
 .contact-heading {
   font-size: 24px;
-  margin-bottom: 20px;
-  text-align: center;
+  margin-bottom: 24px;
+}
+
+.contact-form {
+  padding: 24px;
+  /* background-color: #f0f0f0; Example background color for the form */
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  /* Responsive styles for mobile view */
+  .social-buttons {
+      padding: 16px;
+  }
+
+  .social-button {
+      margin-bottom: 8px; /* Reduce spacing between buttons */
+  }
+
+  .contact-form {
+      padding: 16px;
+  }
+}
+
+.icon-spacing {
+  margin: 15px;
+}
+
+.icon-image-spacing {
+  margin-bottom: 10px;
 }
 
 .form-label {
