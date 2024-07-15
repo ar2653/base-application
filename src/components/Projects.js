@@ -27,7 +27,7 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                     <img
-                      src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/pb1.jpeg"
+                      src="https://ankush-portfolio.s3.amazonaws.com/pb2.png"
                       alt="Architecture Diagram"
                       style={{ height: "300px", objectFit: "cover" }}
                     />
@@ -35,9 +35,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Pottery Barn is an e-commerce platform specializing in home decor and furniture, offering a dynamic product catalog, secure checkout, and personalized recommendations.
                 </p>
               </Card>
             </a>
@@ -54,7 +52,7 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                     <img
-                      src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/westelm.svg"
+                      src="https://ankush-portfolio.s3.amazonaws.com/we3.webp"
                       alt="Architecture Diagram"
                       style={{ height: "300px", objectFit: "cover" }}
                     />
@@ -62,9 +60,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                West Elm is an online retail platform focused on modern furniture and home accessories, featuring a curated product selection, secure payment options, and personalized shopping experiences.
                 </p>
               </Card>
             </a>
@@ -81,7 +77,7 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                     <img
-                      src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/schedule.png"
+                      src="https://ankush-portfolio.s3.amazonaws.com/schedule-vid.gif"
                       alt="Architecture Diagram"
                       style={{ height: "300px", objectFit: "cover" }}
                     />
@@ -89,9 +85,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Schedule.cc is a scheduling software designed to streamline appointment booking, calendar management, and event coordination with user-friendly interfaces and automated reminders.
                 </p>
               </Card>
             </a>
@@ -108,7 +102,7 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                     <img
-                      src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/projectsly.png"
+                      src="https://ankush-portfolio.s3.amazonaws.com/projects-vid.gif"
                       alt="Architecture Diagram"
                       style={{ height: "300px", objectFit: "cover" }}
                     />
@@ -116,9 +110,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Projects.ly is a project management tool that facilitates task tracking, team collaboration, and progress monitoring, offering intuitive dashboards and real-time updates for efficient project execution.
                 </p>
               </Card>
             </a>
@@ -135,7 +127,7 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                     <img
-                      src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/moya.jpg"
+                      src="https://ankush-portfolio.s3.amazonaws.com/moya.jpeg"
                       alt="Architecture Diagram"
                       style={{ height: "300px", objectFit: "cover" }}
                     />
@@ -143,9 +135,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Moya the Waterman is an order management application that streamlines the process of placing orders, tracking deliveries, and managing inventory with real-time updates and user-friendly interfaces.
                 </p>
               </Card>
             </a>
@@ -162,7 +152,7 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                     <img
-                      src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/ws.webp"
+                      src="https://ankush-portfolio.s3.amazonaws.com/ws4.png"
                       alt="Architecture Diagram"
                       style={{ height: "300px", objectFit: "cover" }}
                     />
@@ -170,9 +160,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Williams Sonoma is an online store specializing in high-quality kitchenware, home furnishings, and gourmet foods, providing a rich product catalog, secure transactions, and personalized culinary recommendations.
                 </p>
               </Card>
             </a>
@@ -195,17 +183,15 @@ const Projects = () => {
                 extra={<LinkOutlined />}
                 cover={
                   <img
-                    src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/mmst.gif"
-                    alt="Architecture Diagram"
+                    src="https://ankush-portfolio.s3.amazonaws.com/mmst.png"
+                    alt="Make my space trip"
                     style={{ height: "300px", objectFit: "cover" }}
                   />
                 }
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Make My Space Trip is a futuristic travel planning application that allows users to plan interplanetary journeys between different planets, offering detailed itineraries, celestial maps, and virtual tours of space destinations.
                 </p>
               </Card>
             </a>
@@ -218,11 +204,11 @@ const Projects = () => {
             >
               <Card
                 className="techCard"
-                title="Make My Space Trip"
+                title="Wave Dynamics"
                 extra={<LinkOutlined />}
                 cover={
                   <img
-                    src="https://ankush-demo-bucket.s3.us-east-2.amazonaws.com/website-assets/wavedynamics.gif"
+                    src="https://ankush-portfolio.s3.amazonaws.com/wd.png"
                     alt="Architecture Diagram"
                     style={{ height: "300px", objectFit: "cover" }}
                   />
@@ -230,9 +216,7 @@ const Projects = () => {
                 hoverable
               >
                 <p>
-                  Dive into my research endeavors. Explore the topics I have
-                  explored, methodologies employed, and key findings from my
-                  research activities.
+                Wave Dynamics is a cutting-edge web application designed to simulate and visualize realistic ocean wave behaviors. Utilizing authentic real-world data, it offers a comprehensive platform for understanding, predicting, and experiencing oceanic waves in an immersive digital environment.
                 </p>
               </Card>
             </a>
