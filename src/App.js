@@ -5,8 +5,15 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import DIYPage from './components/DIYPage';
+import posthog from 'posthog-js'
 
 const App = () => {
+    posthog.init('phc_4wRr396iA3G9Tw4lQUd6h0iOF5smmLScLAWBtDMgduq',
+        {
+            api_host: 'https://us.i.posthog.com',
+            person_profiles: 'identified_only' // or 'always' to create profiles for anonymous users as well
+        }
+    )
     return (
         <Router>
             <Routes>
