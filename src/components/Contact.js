@@ -15,10 +15,7 @@ const Contact = () => {
             emailAddress: values.emailAddress,
             message: values.message,
           };
-          const headers = {
-            'x-api-key': process.env.REACT_APP_API_KEY
-          }
-          axios.post('https://8kvgkqbyhc.execute-api.us-east-1.amazonaws.com/default/send-email-nodemailer', data, {headers})
+          axios.post('https://8kvgkqbyhc.execute-api.us-east-1.amazonaws.com/default/send-email-nodemailer', data)
           .then(response => {
             console.log('Email sent successfully:', response.data);
             notification.success({
