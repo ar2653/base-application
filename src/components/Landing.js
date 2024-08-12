@@ -14,9 +14,7 @@ const Landing = () => {
           <Link to="/about" className="card-link">
             <Card title="About" className="landing-card">
               <p className="card-text">
-                Learn more about my background, skills, and experiences. Get
-                insights into who I am and what drives my passion for
-                technology.
+              Learn about my background, skills, and experiences. Gain insights into my journey and discover what drives my passion for technology and innovation in my professional life.
               </p>
             </Card>
           </Link>
@@ -24,46 +22,23 @@ const Landing = () => {
           <Link to="/projects" className="card-link">
             <Card title="Projects" className="landing-card">
               <p className="card-text">
-                Explore the various projects I have worked on. Discover my
-                contributions, technologies used, and the outcomes of each
-                project.
+              Discover the projects I've worked on, including my contributions, technologies used, and outcomes. Dive into detailed insights about each project and my hands-on experience.
               </p>
             </Card>
           </Link>
 
-          {/* <Link to="/reachout" className="card-link">
-            <Card title="Reach Out" className="landing-card">
+          <Link to="/stats" className="card-link">
+            <Card title="Stats" className="landing-card">
               <p className="card-text">
-          Reach out to me via LinkedIn, email, GitHub, or phone to discuss my projects, contributions, technologies used, and project outcomes.
+              Explore my LeetCode journey and see how I tackle coding challenges. Track my progress, understand my strategies, and view my achievements in coding and problem-solving.
               </p>
             </Card>
-          </Link> */}
-
-          {/* <Link to="/research" className="card-link">
-                    <Card title="Research" className="landing-card">
-                        <p className="card-text">
-                            Dive into my research endeavors.
-                            Explore the topics I have explored, methodologies employed,
-                            and key findings from my research activities.
-                        </p>
-                    </Card>
-                </Link> */}
-{/* 
-          <Link to="/diy" className="card-link">
-            <Card title="DIY" className="landing-card">
-              <p className="card-text">
-                Explore insightful articles on modern app architectures and
-                step-by-step guides to building them from scratch.
-              </p>
-            </Card>
-          </Link> */}
+          </Link>
 
           <Link to="/contact" className="card-link">
             <Card title="Contact" className="landing-card">
               <p className="card-text">
-                Reach out to me! Whether you have inquiries, collaboration
-                opportunities, or just want to say hello, find the details you
-                need to get in touch.
+              Get in touch for inquiries, collaboration opportunities, or just to connect. Find all the details you need to reach out and start a meaningful conversation with me.
               </p>
             </Card>
           </Link> 

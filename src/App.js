@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import DIYPage from './components/DIYPage';
 import posthog from 'posthog-js'
+import Stats from './components/Stats';
 
 const App = () => {
     posthog.init('phc_4wRr396iA3G9Tw4lQUd6h0iOF5smmLScLAWBtDMgduq',
@@ -22,6 +23,7 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/diy" element={<DIYPage />} />
+                <Route path="/stats" element={<Stats />} />
                 {/* Add more routes as needed */}
             </Routes>
         </Router>
