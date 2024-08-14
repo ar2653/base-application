@@ -27,13 +27,13 @@ const Landing = () => {
             </Card>
           </Link>
 
-          <Link to="/stats" className="card-link">
+          {/* <Link to="/stats" className="card-link">
             <Card title="Stats" className="landing-card">
               <p className="card-text">
               Explore my LeetCode journey and see how I tackle coding challenges. Track my progress, understand my strategies, and view my achievements in coding and problem-solving.
               </p>
             </Card>
-          </Link>
+          </Link> */}
 
           <Link to="/contact" className="card-link">
             <Card title="Contact" className="landing-card">

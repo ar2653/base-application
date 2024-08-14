@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Landing from './components/Landing';
 import Projects from './components/Projects';
@@ -15,6 +15,9 @@ const App = () => {
             person_profiles: 'identified_only' // or 'always' to create profiles for anonymous users as well
         }
     )
+    useEffect(() => {
+        document.title = 'Ankush Portfolio';
+      }, []);
     return (
         <Router>
             <Routes>
